@@ -8,14 +8,17 @@
     "ios:go": "expo start --ios --go",
     "android": "expo run:android",
     "android:go": "expo start --android --go",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "decode-secrets": "echo $GOOGLE_SERVICES_JSON_B64 | base64 --decode > google-services.json"
   },
   "dependencies": {
     "expo": "~55.0.19",
     "expo-dev-client": "^55.0.30",
     "expo-status-bar": "~55.0.5",
+    "onesignal-expo-plugin": "^2.5.0",
     "react": "19.2.0",
-    "react-native": "0.83.6"
+    "react-native": "0.83.6",
+    "react-native-onesignal": "^5.4.4"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
