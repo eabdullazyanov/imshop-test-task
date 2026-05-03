@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Yarn Berry
+.yarn/
+
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+ios/build/
+android/build/
+android/app/build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
